@@ -1,0 +1,279 @@
+/*********** Body **********/
+
+.home {
+	background: #2196F3;
+	font-family: helvetica, Arial;
+	box-sizing: border-box;
+}
+
+/********* Top nav *********/
+.topnav {
+	background-color: #eaf2ef;
+	overflow: hidden;
+}
+
+.topnav a {
+	display: block;
+	color: #494D58;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.title {
+	float: left;
+}
+
+.logout {
+	float: right;
+}
+
+.topnav a:hover {
+	background-color: #494D58;
+	color: #EAf2Ef;
+}
+
+/******** flexbox grid ********/
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+	max-width: 100%;
+}
+
+.cell img {
+	width: 150px;
+	height: 85px;
+	display: block;
+	border: 2px solid #494D58;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.cell {
+	margin: 5px;
+}
+
+/********** Formating ***********/
+
+h2 {
+	text-align: center;
+	color: #303036;
+}
+
+h4 {
+	color: #303036;
+	padding-left: 20px;
+}
+
+.buttons {
+	margin: auto;
+	width: 305px;
+	height: 50px;
+}
+
+.center {
+	margin: auto;
+	width: 820px;
+}
+
+.buttons button {
+	font-size: 15px;
+	margin: auto;
+	width: 150px;
+	height: 30px;
+}
+
+#camara {
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+#preview {
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+#upload_form, #info{
+	color: #303036;
+	padding-left: 20px;
+}
+
+/********* Gallery **************/
+
+.gallery {
+	margin-top: 10px;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 94%;
+}
+
+.gallery_img {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 375px;
+}
+
+.gallery_auth {
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+
+.comments {
+	background-color: #EAf2Ef;
+	margin-bottom: 10px;
+	height: 300px;
+	position: relative;
+}
+
+.comments h4 {
+	margin-left: 370px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 40px;
+}
+
+.comments ul {
+	list-style: none;
+}
+
+.comments li {
+	text-decoration: none;
+	margin-left: 370px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination {
+	margin-left: 2.5%;
+	padding-top: 10px;
+}
+
+.pagination a {
+	color: #303036;
+	text-align: center;
+	padding: 8px;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #eaf2ef;
+	overflow: hidden;
+}
+
+.pagination a:hover {
+	background-color: #494D58;
+	color: #EAf2Ef;
+}
+
+.new_comment {
+	border: 1px solid #494D58;
+	color: #303036;
+	height: 25px;
+	width: 110px;
+	font-weight: bold;
+	font-size: 12px;
+	right: 10px;
+	bottom: 10px;
+	position: absolute;
+}
+
+.new_comment:hover {
+	background-color: #494D58;
+	color: #EAf2Ef;
+}
+
+.new_like {
+	border: 1px solid #494D58;
+	color: #303036;
+	height: 25px;
+	width: 50px;
+	font-weight: bold;
+	font-size: 12px;
+	left: 410px;
+	bottom: 10px;
+	position: absolute;
+}
+
+.new_like:hover {
+	background-color: red;
+	border: 1px solid red;
+	color: #EAf2Ef;
+}
+
+.likes {
+	margin: 0;
+	color: #303036;
+	font-size: 20px;
+	left: 470px;
+	bottom: 10px;
+	position: absolute;
+}
+
+@media only screen and (max-width: 800px) {
+
+.gallery_auth {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.gallery_img {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 225px;
+}
+
+.new_like {
+	left: 20px;
+}
+
+.likes {
+	left: 80px;
+}
+
+.comments {
+	position: relative;
+	height: 600px;
+}
+
+.comments li {
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.comments h4 {
+	margin-left: 0px;
+	padding-top: 320px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
